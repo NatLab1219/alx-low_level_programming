@@ -12,9 +12,7 @@ int main(void)
 {
 
 	int n1 = 48;
-
-	int n2;
-
+	int n2 = 0;
 	int com = 44;
 
 	while (n1 <= 57)
@@ -28,7 +26,6 @@ int main(void)
 		{
 
 			putchar(n1);
-
 			putchar(n2);
 
 			if (n1 != 56 || n2 != 57)
@@ -36,7 +33,6 @@ int main(void)
 			{
 
 				putchar(com);
-
 				putchar(32);
 
 			}
