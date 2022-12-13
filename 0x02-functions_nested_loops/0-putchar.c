@@ -17,6 +17,6 @@ int main(void)
 		_putchar(str_hbt[n]);
 		n += 1;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
